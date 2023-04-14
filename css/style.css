@@ -11,6 +11,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0px 0px;
   right: 10px;
+  background-image: url(/img/tec2.jpg);
   width: 100%;
   height: auto;
   flex-direction: column;
