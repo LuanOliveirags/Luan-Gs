@@ -148,7 +148,7 @@ header {
   }
 }
 /*Final da Responsividade mobile*/
-.intro {
+.contatos1 {
   width: 100%;
   height: 500px;
   text-align: center;
@@ -158,26 +158,26 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.intro h1 {
+.contatos1 h1 {
   color: #fff;
   font-size: 45px;
   font-weight: 400;
   margin-top: 150px;
 }
-.intro h4 {
+.contatos1 h4 {
   color: #00f7ff;
   font-size: 20px;
   font-weight: 900;
 }
 
 section:nth-of-type(1) {
-  background-image: url(/img/tec2.jpg);
+  background-color: #000000;
   color: white;
   font-size: 60px;
   width: 100%;
 }
 
-.quemsomos {
+.contatos2 {
   width: 100%;
   height: 500px;
   text-align: center;
@@ -187,41 +187,19 @@ section:nth-of-type(1) {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.quemsomos h1 {
+.contatos2 h1 {
   color: #fff;
   font-size: 45px;
   font-weight: 400;
   margin-top: 150px;
 }
-.quemsomos h4 {
+.contatos2 h4 {
   color: #00f7ff;
   font-size: 20px;
   font-weight: 900;
 }
 
-.servicos {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  padding: 40px 4%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.servicos h1 {
-  color: #fff;
-  font-size: 45px;
-  font-weight: 400;
-  margin-top: 150px;
-}
-.servicos h4 {
-  color: #00f7ff;
-  font-size: 20px;
-  font-weight: 900;
-}
-
-section:nth-of-type(3) {
+section:nth-of-type(2) {
   background-image: url(/img/tec2.jpg);
   color: white;
   font-size: 35px;
