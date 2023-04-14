@@ -157,8 +157,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 60px;
-  width: 100%;
 }
 .intro h1 {
   color: #fff;
@@ -170,6 +168,13 @@ header {
   color: #00f7ff;
   font-size: 20px;
   font-weight: 900;
+}
+
+section:nth-of-type(1) {
+  background-image: url(/img/tec2.jpg);
+  color: white;
+  font-size: 60px;
+  width: 100%;
 }
 
 .quemsomos {
