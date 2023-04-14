@@ -18,6 +18,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /*Ocultar barra lateral*/
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*Menu e logo*/
