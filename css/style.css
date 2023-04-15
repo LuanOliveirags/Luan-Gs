@@ -242,6 +242,12 @@ section.module.parallax-3 h4 {
   font-size: 20px;
   font-weight: 900;
 }
+section.module.parallax-3 p {
+  color: #00f7ff;
+}
+section.module.parallax-3 h5 {
+  color: #00f7ff;
+}
 
 .whats {
   position: fixed;
@@ -256,7 +262,7 @@ section.module.parallax-3 h4 {
 #rodape {
   width: 100%;
   height: auto;
-  background-color: rgba(44, 43, 43, 0.2588235294);
+  background-color: rgba(44, 43, 43, 0);
   background-size: 100%;
   color: #ffffff;
   padding: auto;
