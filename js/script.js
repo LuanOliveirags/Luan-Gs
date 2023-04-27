@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".hamburguer").click(function () {
+    $(".menubar").click(function () {
         $(this).toggleClass("active");
         $(".menu").toggleClass("active");
 });
