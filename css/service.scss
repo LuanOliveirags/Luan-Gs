@@ -154,10 +154,8 @@ a {
   .menu.active{
     right: -100%;
               }
-
 }
 /*Final da Responsividade mobile*/
-
 
 
 .wrapper{
@@ -168,7 +166,6 @@ main{
 display: block;
 background-color: #000000;
 }
-
 .container{
 text-align: center;
 width: 100%;
@@ -177,9 +174,7 @@ margin: 0 auto;
 padding: 0 20px;
 word-wrap: break-word;
 overflow-wrap: break-word;
-
 }
-
 h1,h2,h3,h4,h5,h6,P{
 font-weight: 900;
 color: #ffffff;
@@ -203,10 +198,7 @@ section.module.parallax{
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-
 }
-
-
 
 
 section.module.parallax-1:after{
@@ -246,9 +238,9 @@ background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #00
 */
 }
 
+
 section.module.parallax-1{
 background-color: #fff;
-
 text-align: center;
 h1 {
   color: #000000;
@@ -256,26 +248,13 @@ h1 {
   font-weight: 400;
   text-align: center;
   z-index: 50;
-
 }
 h4 {
   color: #020202;
   font-size: 20px;
   font-weight: 900;
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .services{
@@ -301,7 +280,7 @@ h4 {
 }
 .textcard1{
   display: inline-block;
-    text-align: center;
+  text-align: center;
   vertical-align: top;
 }
 }
@@ -331,7 +310,5 @@ section details summary {
   padding: auto;
   text-align: center;
   margin-block-start: auto;
-
-  
 }
 /* Final Roda-pé */
