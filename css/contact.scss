@@ -144,7 +144,7 @@ a {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: #00f7ff6b;
+    background-color: #0000007e;
     width:100% ;
     max-width: 100px;
     padding: 100px 20px;
@@ -292,35 +292,25 @@ p{
   color: #00f7ff;
 }
 }
-section.module.parallax-3{  background-color: #fff;
 
-text-align: center;
-h1 {
-  color: #080808;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
-
-}
-h4 {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 900;
-}
-p{ color: #000000;}
-h5{color: #ffffff;}
-
-}
 
 
 .text-1{
   visibility: hidden;
 }
 
+.Perguntas{
+  text-align: center;
+}
+section details summary {
+  background-color: #f7f3f3;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 50px;
+}
 
 
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: grid;}
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: flex;}
 /*Final do whatsapp*/
 /* Roda-pé */
 #rodape {
