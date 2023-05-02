@@ -333,3 +333,53 @@ h5{color: #ffffff;}
   
 }
 /* Final Roda-pé */
+
+
+
+
+
+
+
+
+
+.services{
+  background-color:#ffffff;
+
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+
+  h1{color: #ff0000;}
+  h2,h3,h4,h5,h6,p{
+    color: #000;
+  }
+.imagens{
+  display: inline-block;
+  background-size: cover;
+  justify-content: center;
+.card1,.card2,.card3{
+      width: 350px;
+      height: 400px;
+      border-radius: 110px;     
+}
+.textcard1{
+  display: inline-block;
+    text-align: center;
+  vertical-align: top;
+}
+}
+}
+
+
+.Perguntas{
+  text-align: center;
+}
+section details summary {
+  background-color: #f7f3f3;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 50px;
+}
+
+

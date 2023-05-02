@@ -267,7 +267,7 @@ h4 {
 }
 
 section.module.parallax-2{  
-  background-image: url(/img/b3.jpg);
+  background-color: #000000;
   text-align: center;
 h1 {
   color: #00f7ff;
@@ -289,8 +289,8 @@ p{
   color: #00f7ff;
 }
 }
-section.module.parallax-3{  background-color: #fff;
-
+section.module.parallax-3{  
+background-color: #fff;
 text-align: center;
 h1 {
   color: #080808;
@@ -329,10 +329,7 @@ h5{color: #ffffff;}
   padding: auto;
   text-align: center;
   margin-block-start: auto;
-
-  h6{
-    color: #000000;
-  }
+  h6{color: #000000;}
 
   
 }
