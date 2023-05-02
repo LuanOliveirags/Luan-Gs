@@ -250,91 +250,18 @@ section.module.parallax-1 h4 {
   font-weight: 900;
 }
 
-section.module.parallax-2 {
-  background-image: url(/img/b3.jpg);
-  text-align: center;
-}
-section.module.parallax-2 h1 {
-  color: #00f7ff;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
-}
-section.module.parallax-2 h4 {
-  color: #00f7ff;
-  font-size: 20px;
-  font-weight: 900;
-}
-section.module.parallax-2 h2 {
-  color: #00f7ff;
-}
-section.module.parallax-2 p {
-  color: #00f7ff;
-}
-
-section.module.parallax-3 {
-  background-color: #fff;
-  text-align: center;
-}
-section.module.parallax-3 h1 {
-  color: #080808;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
-}
-section.module.parallax-3 h4 {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 900;
-}
-section.module.parallax-3 p {
-  color: #000000;
-}
-section.module.parallax-3 h5 {
-  color: #ffffff;
-}
-
-.text-1 {
-  visibility: hidden;
-}
-
-.whats {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 9999;
-  display: grid;
-}
-
-/*Final do whatsapp*/
-/* Roda-pé */
-#rodape {
-  width: 100%;
-  height: auto;
-  background-color: rgba(44, 43, 43, 0);
-  background-size: 100%;
-  color: #ffffff;
-  padding: auto;
-  text-align: center;
-  -webkit-margin-before: auto;
-          margin-block-start: auto;
-}
-
-/* Final Roda-pé */
 .services {
-  background-color: #ffffff;
+  background-color: #000000;
   background-size: cover;
   justify-content: center;
   text-align: center;
   color: #000000;
 }
 .services h1 {
-  color: #ff0000;
+  color: #00f7ff;
 }
 .services h2, .services h3, .services h4, .services h5, .services h6, .services p {
-  color: #000;
+  color: #ffffff;
 }
 .services .imagens {
   display: inline-block;
@@ -361,4 +288,28 @@ section details summary {
   padding: 2%;
   margin: 1%;
   border-radius: 50px;
-}/*# sourceMappingURL=service.css.map */
+}
+
+.whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  display: grid;
+}
+
+/*Final do whatsapp*/
+/* Roda-pé */
+#rodape {
+  width: 100%;
+  height: auto;
+  background-color: rgba(44, 43, 43, 0);
+  background-size: 100%;
+  color: #ffffff;
+  padding: auto;
+  text-align: center;
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
+}
+
+/* Final Roda-pé *//*# sourceMappingURL=service.css.map */
