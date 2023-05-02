@@ -23,7 +23,7 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 /*Menu e logo*/
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6, P {
 }
 
 section.module.parallax {
-  background-color: #D3D3D3;
+  background-color: #000000;
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
@@ -251,7 +251,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-color: #000;
+  background-image: url(/img/b3.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {
@@ -315,11 +315,14 @@ section.module.parallax-3 h5 {
   height: auto;
   background-color: rgba(44, 43, 43, 0);
   background-size: 100%;
-  color: #ffffff;
+  color: #000000;
   padding: auto;
   text-align: center;
   -webkit-margin-before: auto;
           margin-block-start: auto;
+}
+#rodape h6 {
+  color: #000000;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=style.css.map */
