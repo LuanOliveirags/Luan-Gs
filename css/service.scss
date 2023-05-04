@@ -274,9 +274,24 @@ h4 {
   background-size: cover;
   justify-content: center;
 .card1,.card2,.card3{
-      width: 350px;
+      width: 400px;
       height: 400px;
-      border-radius: 110px;     
+      border-radius: 150px;     
+}
+.textcard1{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+}
+.imagens2{
+  display: inline-block;
+  background-size: cover;
+  justify-content: center;
+.card1,.card2,.card3{
+      width: 400px;
+      height: 400px;
+      border-radius: 150px;     
 }
 .textcard1{
   display: inline-block;
@@ -285,7 +300,6 @@ h4 {
 }
 }
 }
-
 
 .Perguntas{
   text-align: center;
