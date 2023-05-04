@@ -300,6 +300,9 @@ section.module.parallax-1 h2 {
 
 /* Final do Serviços */
 .Perguntas {
+  text-align: justify;
+}
+.Perguntas .Respostas {
   text-align: center;
 }
 

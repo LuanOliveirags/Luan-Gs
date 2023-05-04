@@ -304,7 +304,10 @@ h2{color: #000000;}
 /* Final do Serviços */
 
 .Perguntas{
-  text-align: center;
+  text-align:justify;
+  .Respostas{
+    text-align: center;
+  }
 }
 section details summary {
   background-color: #f7f3f3;
