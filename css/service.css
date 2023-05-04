@@ -123,7 +123,7 @@ header {
   transition: 0.5s ease;
 }
 .menu li a:hover {
-  color: #fff;
+  color: #00f7ff;
 }
 
 /*Final do Menu e logo*/
@@ -139,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(0, 247, 255, 0.4196078431);
+    background-color: rgba(0, 0, 0, 0.4941176471);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
