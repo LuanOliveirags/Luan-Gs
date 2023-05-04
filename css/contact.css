@@ -234,7 +234,7 @@ section.module.parallax-3:after {
 }
 
 section.module.parallax-1 {
-  background-color: #fff;
+  background-image: url(/img/b2.jpg);
   text-align: center;
 }
 section.module.parallax-1 h {
@@ -254,7 +254,7 @@ section.module.parallax-1 h2 {
 }
 
 section.module.parallax-2 {
-  background-color: #000;
+  background-image: url(/img/b3.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {

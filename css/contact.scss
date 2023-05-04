@@ -247,7 +247,7 @@ background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #00
 }
 
 section.module.parallax-1{
-background-color: #fff;
+background-image: url(/img/b2.jpg);
 
 text-align: center;
 h {
@@ -270,8 +270,8 @@ h2{
 }
 
 section.module.parallax-2{  
-background-color: #000;
-text-align: center;
+  background-image: url(/img/b3.jpg);
+  text-align: center;
 h1 {
   color: #00f7ff;
   font-size: 45px;
