@@ -119,7 +119,7 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #00f7ff;
+  color: #000000;
   transition: 0.5s ease;
 }
 .menu li a:hover {
@@ -139,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.4941176471);
+    background-color: rgba(0, 247, 255, 0.3294117647);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
@@ -251,7 +251,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/b.jpg);
+  background-color: #000000;
   text-align: center;
 }
 section.module.parallax-2 h1 {
