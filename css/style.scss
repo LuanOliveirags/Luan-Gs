@@ -247,7 +247,7 @@ background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #00
 }
 
 section.module.parallax-1{
-background-color: #fff;
+background-image: url(/img/Style3.jpg);
 
 text-align: center;
 h1 {
@@ -267,10 +267,10 @@ h4 {
 }
 
 section.module.parallax-2{  
-  background-color: #000000;
+  background-image: url(/img/Style9.jpg);
   text-align: center;
 h1 {
-  color: #00f7ff;
+  color: #ffffff;
   font-size: 45px;
   font-weight: 400;
   text-align: center;
@@ -278,20 +278,20 @@ h1 {
 
 }
 h4 {
-  color: #00f7ff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 900;
 }
 h2{
-  color: #00f7ff;
+  color: #ffffff;
 }
 p{
   color: #00f7ff;
 }
 }
 section.module.parallax-3{  
-background-color: #fff;
-text-align: center;
+  background-image: url(/img/Style5.jpg);
+  text-align: center;
 h1 {
   color: #080808;
   font-size: 45px;
@@ -323,9 +323,9 @@ h5{color: #000000;}
 #rodape {
   width: 100%;
   height: auto;
-  background-color: #2c2b2b00;
+  background-color: #00000000;
   background-size: 100%;
-  color: #000000;
+  color: #00000000;
   padding: auto;
   text-align: center;
   margin-block-start: auto;
