@@ -237,20 +237,11 @@ section.module.parallax-1 {
   background-image: url(/img/Style4.jpg);
   text-align: center;
 }
-section.module.parallax-1 h1 {
-  color: #000000;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
-}
-section.module.parallax-1 h4 {
-  color: #020202;
-  font-size: 20px;
-  font-weight: 900;
-}
 section.module.parallax-1 h2 {
-  color: #000000;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 200;
+  z-index: 50;
 }
 
 /* Serviços */
@@ -263,6 +254,9 @@ section.module.parallax-1 h2 {
 }
 .services h1 {
   color: #00f7ff;
+  font-size: 35px;
+  font-weight: 200;
+  z-index: 50;
 }
 .services h2, .services h3, .services h4, .services h5, .services h6, .services p {
   color: #ffffff;
@@ -328,11 +322,15 @@ section details summary {
   height: auto;
   background-color: rgba(44, 43, 43, 0);
   background-size: 100%;
-  color: #ffffff;
   padding: auto;
   text-align: center;
   -webkit-margin-before: auto;
           margin-block-start: auto;
+}
+#rodape h6 {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=service.css.map */
