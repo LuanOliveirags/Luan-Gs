@@ -119,11 +119,11 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #000000;
+  color: #00f7ff;
   transition: 0.5s ease;
 }
 .menu li a:hover {
-  color: #00f7ff;
+  color: #000000;
 }
 
 /*Final do Menu e logo*/
@@ -139,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(0, 247, 255, 0.3294117647);
+    background-color: rgba(160, 159, 159, 0.4235294118);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
