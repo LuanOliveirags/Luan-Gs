@@ -28,7 +28,7 @@ body {
 
 /*Menu e logo*/
 header {
-  background-color: rgba(44, 43, 43, 0);
+  background-color: rgba(160, 159, 159, 0.4235294118);
   width: 100%;
   padding: 0 auto;
   position: fixed;
