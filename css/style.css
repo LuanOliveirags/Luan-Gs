@@ -139,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.7058823529);
+    background-color: rgba(41, 41, 41, 0.7058823529);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
@@ -251,28 +251,28 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/rm380-10.jpg);
+  background-image: url(/img/Style10.jpg);
   text-align: center;
 }
 section.module.parallax-2 h2 {
-  color: #000000;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 200;
   z-index: 50;
 }
 
 section.module.parallax-3 {
-  background-image: url(/img/Style10.jpg);
+  background-image: url(/img/rm380-10.jpg);
   text-align: center;
 }
 section.module.parallax-3 h4 {
-  color: #ffffff;
+  color: #000000;
   font-size: 35px;
   font-weight: 400;
   z-index: 50;
 }
 section.module.parallax-3 h5 {
-  color: #ffffff;
+  color: #000000;
   font-size: 25px;
   font-weight: 500;
   z-index: 50;
