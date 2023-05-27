@@ -28,7 +28,7 @@ body{
 
 /*Menu e logo*/
 header{
-background-color: #ffffffa9;
+background-color: #ffffff00;
 width: 100%;
 padding: 0 auto;
 position: fixed;
@@ -92,7 +92,7 @@ a {
     width: 40%;
     height: 10%;
     border-radius: 10px;
-    background-color: #000000;
+    background-color: #00f7ff;
     transition: 1s ease;
     }
   
@@ -144,7 +144,7 @@ a {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: #29292954;
+    background-color: #ffffffb4;
     width:100% ;
     max-width: 100px;
     padding: 100px 20px;
@@ -266,10 +266,10 @@ h4 {
 }
 
 section.module.parallax-2{  
-  background-image: url(/img/Mãos.jpg);
+  background-image: url(/img/rm380-10.jpg);
   text-align: center;
 h2{
-  color: #ffffff;
+  color: #000000;
   font-size: 35px;
   font-weight: 200;
   z-index: 50;
