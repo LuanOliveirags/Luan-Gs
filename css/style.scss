@@ -28,7 +28,7 @@ body{
 
 /*Menu e logo*/
 header{
-background-color: #a09f9f6c;
+background-color: #ffffffa9;
 width: 100%;
 padding: 0 auto;
 position: fixed;
@@ -121,10 +121,10 @@ a {
         display: block;
         padding: 10px 15px;
         text-decoration: none;
-        color: #00f7ff;
+        color: #000000;
         transition: 0.5s ease; 
         &:hover{
-            color: #000000;
+            color: #00f7ff;
                }
       }
     }
@@ -266,7 +266,7 @@ h4 {
 }
 
 section.module.parallax-2{  
-  background-image: url(/img/Style10.jpg);
+  background-image: url(/img/Mãos.jpg);
   text-align: center;
 h2{
   color: #ffffff;
@@ -277,15 +277,15 @@ h2{
 }
 
 section.module.parallax-3{  
-  background-image: url(/img/Style11.jpg);
+  background-image: url(/img/Style10.jpg);
   text-align: center;
 h4 {
-  color: #000000;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 400;
   z-index: 50;
 }
-h5{color: #000000;
+h5{color: #ffffff;
   font-size: 25px;
   font-weight: 500;
   z-index: 50;}

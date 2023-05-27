@@ -28,7 +28,7 @@ body {
 
 /*Menu e logo*/
 header {
-  background-color: rgba(160, 159, 159, 0.4235294118);
+  background-color: rgba(255, 255, 255, 0.662745098);
   width: 100%;
   padding: 0 auto;
   position: fixed;
@@ -119,11 +119,11 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #00f7ff;
+  color: #000000;
   transition: 0.5s ease;
 }
 .menu li a:hover {
-  color: #000000;
+  color: #00f7ff;
 }
 
 /*Final do Menu e logo*/
@@ -235,11 +235,11 @@ section.module.parallax-3:after {
 }
 
 section.module.parallax-1 {
-  background-image: url(/img/Style11.jpg);
+  background-image: url(/img/Style10.jpg);
   text-align: center;
 }
 section.module.parallax-1 h2 {
-  color: #020202;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 400;
   z-index: 50;
