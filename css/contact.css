@@ -28,7 +28,7 @@ body {
 
 /*Menu e logo*/
 header {
-  background-color: rgba(255, 255, 255, 0.662745098);
+  background-color: rgba(255, 255, 255, 0);
   width: 100%;
   padding: 0 auto;
   position: fixed;
@@ -89,7 +89,7 @@ header {
   width: 40%;
   height: 10%;
   border-radius: 10px;
-  background-color: #000000;
+  background-color: #00f7ff;
   transition: 1s ease;
 }
 
@@ -119,11 +119,11 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #000000;
+  color: #00f7ff;
   transition: 0.5s ease;
 }
 .menu li a:hover {
-  color: #00f7ff;
+  color: #ffffff;
 }
 
 /*Final do Menu e logo*/
@@ -139,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(160, 159, 159, 0.4235294118);
+    background-color: rgba(255, 255, 255, 0.7058823529);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
