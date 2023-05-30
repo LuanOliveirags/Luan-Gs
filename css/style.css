@@ -277,6 +277,12 @@ section.module.parallax-3 h5 {
   font-weight: 500;
   z-index: 50;
 }
+section.module.parallax-3 h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  z-index: 50;
+}
 
 .text-1 {
   visibility: hidden;
