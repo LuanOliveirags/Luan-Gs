@@ -21,9 +21,10 @@ body {
   margin: 0;
   padding: 0;
   right: 10px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(/img/Livro.jpg);
 }
 
 /*Menu e logo*/
@@ -251,7 +252,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/essa.jpg);
+  background-image: url(/img/Livro.jpg);
   text-align: center;
 }
 section.module.parallax-2 h3 {
