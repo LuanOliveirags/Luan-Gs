@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(/img/Livro.jpg);
+  background-image: url(/img/esfera.jpg);
 }
 
 /*Menu e logo*/
@@ -252,17 +252,17 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/Livro.jpg);
+  background-image: url(/img/esfera.jpg);
   text-align: center;
 }
 section.module.parallax-2 h3 {
-  color: #000000;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 400;
   z-index: 50;
 }
 section.module.parallax-2 h5 {
-  color: #000000;
+  color: #ffffff;
 }
 
 section.module.parallax-3 {
@@ -313,7 +313,7 @@ section.module.parallax-3 h6 {
           margin-block-start: auto;
 }
 #rodape h6 {
-  color: #000000;
+  color: #f3f1f1;
   font-size: 13px;
   font-weight: 500;
 }
