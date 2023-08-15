@@ -306,8 +306,7 @@ section.module.parallax-3 h6 {
   background-size: 100%;
   padding: auto;
   text-align: center;
-  -webkit-margin-before: auto;
-          margin-block-start: auto;
+  margin-block-start: auto;
 }
 #rodape h6 {
   color: #f3f1f1;

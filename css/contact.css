@@ -294,8 +294,7 @@ section details summary {
   background-size: 100%;
   padding: auto;
   text-align: center;
-  -webkit-margin-before: auto;
-          margin-block-start: auto;
+  margin-block-start: auto;
 }
 #rodape h6 {
   color: #ffffff;
