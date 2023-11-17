@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(/img/esfera.jpg);
+  background-image: url(/img/Style9.jpg);
 }
 
 /*Menu e logo*/
@@ -252,7 +252,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/esfera.jpg);
+  background-image: url(/img/Style9.jpg);
   text-align: center;
 }
 section.module.parallax-2 h3 {
