@@ -278,8 +278,11 @@ h3{
 
 }
 
-section.module.parallax-3{  
+.conteudo{  
   background-image: url(/img/Style10.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
 h4 {
   color: #ffffff;
@@ -298,6 +301,11 @@ h5{color: #00f7ff;
     font-weight: 500;
     z-index: 50;
   }
+  .perfil{
+    border-radius: 70px;
+
+  }
+  
 
 }
 
