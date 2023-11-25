@@ -17,17 +17,24 @@
 <!-- MENU DE OPÇÕES E LOGO -->
 <body class="scroll">
     <header>
-        <div class="navbar">
-            <div class="logo"><a href="../index.html"><img src="../img/2.0.png" width="62"></a></div>
-            
+        <div class="navigation">
+          <div class="logo"><a href="../index.html"><img src="../img/2.0.png" width="62"></a></div>
+
             <input id="menubar" type="checkbox" style="display:none;">
             <label for="menubar">
             <div class="menubar active"></div>
             </label>
             
             <ul class="menu active">
-                <li ><a href="../index.html">Home</a></li>
-                <li ><a href="contact.html">Contact</a></li>
+                <li class="list active">
+                  <a href="../index.html"><span class="icon"><ion-icon name="home-outline"></ion-icon></span> Home</a>
+
+                  <span class="title"></span>
+                </li>
+                  <li class="list">
+                    <a href="../html/contact.html"><span class="icon"><ion-icon name="call-outline"></ion-icon></span> Contact</a>
+                    <span class="title"></span>
+                  </li>
             </ul>
         </div>
     </header>
@@ -74,5 +81,8 @@
     crossorigin="anonymous"
     ></script>
     <script src="js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

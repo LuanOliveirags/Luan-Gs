@@ -21,9 +21,10 @@ body {
   margin: 0;
   padding: 0;
   right: 10px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  background-color: #000000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
 }
 
 /*Menu e logo*/
@@ -36,13 +37,24 @@ header {
   z-index: 999;
 }
 
-.navbar {
+.navigation {
   max-width: 0 auto;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navigation ul {
+  color: #ffffff;
+}
+.navigation ul .icon {
+  color: #00f7ff;
+}
+.navigation ul .title {
+  position: relative;
+  white-space: nowrap;
 }
 
 .logo {
@@ -200,11 +212,11 @@ section.module.parallax-1:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  /*
+
   background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
   background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, #000 100% );
-  */
+
 }
 
 section.module.parallax-2:after {

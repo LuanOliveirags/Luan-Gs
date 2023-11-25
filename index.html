@@ -17,7 +17,7 @@
 <!-- MENU DE OPÇÕES E LOGO -->
 <body class="scroll">
     <header>
-        <div class="navbar">
+        <div class="navigation">
           <div class="logo"><a href="index.html"><img src="img/2.0.png" width="62"></a></div>
 
             <input id="menubar" type="checkbox" style="display:none;">
@@ -26,8 +26,15 @@
             </label>
             
             <ul class="menu active">
-                <li ><a href="index.html">Home</a></li>
-                <li ><a href="html/contact.html">Contact</a></li>
+                <li class="list active">
+                  <a href="index.html"><span class="icon"><ion-icon name="home-outline"></ion-icon></span> Home</a>
+
+                  <span class="title"></span>
+                </li>
+                  <li class="list">
+                    <a href="html/contact.html"><span class="icon"><ion-icon name="call-outline"></ion-icon></span> Contact</a>
+                    <span class="title"></span>
+                  </li>
             </ul>
         </div>
     </header>
@@ -47,20 +54,48 @@
 
       <!--SECTION 2-->
       <section class="module parallax parallax-2">
+        <br>
         
         <h3 class="text-2">A criatividade é pensar coisas novas. A inovação é fazer coisas novas.</h2>
           <h3 class="text-2">-Theodore Levitt</h2>
-
+ 
+          </div>
       </section>
       <!--FINAL SECTION 2-->
+      <section class="conteudo1">
+        <br>
+        <h3 class="text-2">Conhecimentos</h2>
+
+
+            <div class="box1">
+              <img class="perfil" src="img/html.png" width="150">
+              <span>  HTML</span>
+            </div>
+          <div class="box2">
+              <img class="perfil" src="img/js.png" width="150">
+              <span>  JS</span>
+            </div>
+
+
+              <div class="box3">
+                <img class="perfil" src="img/CSS.png" width="150">
+                <span>  CSS</span>
+      
+          </div>
+
+          <br>
+          <br>
+      </section>
 
 
       <!--SECTION 3-->
+
       <section class="conteudo">
       <div class="ideias1">
         <br>
-        <img class="perfil" src="img/9.jpg" width="200">
         <h4 class= "text-2">Sou Analista, Desenvolvedor de Sistemas e Técnico de informática;</h4>
+
+        <img class="perfil" src="img/9.jpg" width="200">
         <h5 class="text-4">Formação na Unip (Universidade Paulista);</h5>  
         <h5 class="text-4">24 Anos, Moro em São Paulo - SP</h5>
 
@@ -78,6 +113,7 @@
       </div> 
       </section>
       <!--FINAL SECTION 3-->
+      
 
         </Main>
         
@@ -107,5 +143,8 @@
     crossorigin="anonymous"
     ></script>
     <script src="js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

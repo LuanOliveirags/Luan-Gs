@@ -20,10 +20,11 @@ body{
   margin: 0;
   padding: 0;
   right: 10px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  background-color: #000000;
 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(/img/Style9.jpg);
 }
 
 /*Menu e logo*/
@@ -37,7 +38,7 @@ z-index: 999;
 }
 
 
-.navbar{
+.navigation{
 max-width: 0 auto;
 margin: 0 auto;
 padding: 0 20px ;
@@ -46,6 +47,18 @@ justify-content: space-between;
 align-items: center;
 
 }
+
+.navigation ul{
+  color: #ffffff;
+  .icon{
+    color: #00f7ff;
+  }
+  .title{
+    position: relative;
+    white-space: nowrap;
+  }
+}
+
 
 .logo{
 width: 50px;
