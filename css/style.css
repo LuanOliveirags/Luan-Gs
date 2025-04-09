@@ -101,7 +101,7 @@ header {
   width: 40%;
   height: 10%;
   border-radius: 10px;
-  background-color: #00f7ff;
+  background-color: #ffffff;
   transition: 1s ease;
 }
 
@@ -263,11 +263,11 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/Style9.jpg);
+  background-color: #ffffff;
   text-align: center;
 }
 section.module.parallax-2 h3 {
-  color: #ffffff;
+  color: #000000;
   font-size: 30px;
   font-weight: 400;
   z-index: 50;
@@ -278,7 +278,7 @@ section.module.parallax-2 h3 {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  background-color: rgba(58, 58, 58, 0.9333333333);
+  background-color: rgba(0, 0, 0, 0.933);
   width: 100%;
 }
 .conteudo1 div.box1 {
@@ -316,7 +316,7 @@ section.module.parallax-2 h3 {
 }
 
 .conteudo {
-  background-image: url(/img/Style10.jpg);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -328,14 +328,14 @@ section.module.parallax-2 h3 {
   font-weight: 300;
   z-index: 50;
 }
-.conteudo h5 {
-  color: #00f7ff;
+.conteudo h {
+  color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   z-index: 50;
 }
-.conteudo h6 {
-  color: #fff;
+.conteudo h5 {
+  color: #000000;
   font-size: 15px;
   font-weight: 500;
   z-index: 50;
@@ -368,7 +368,7 @@ section.module.parallax-2 h3 {
   margin-block-start: auto;
 }
 #rodape h6 {
-  color: #f3f1f1;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 500;
 }
