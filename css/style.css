@@ -289,6 +289,55 @@ section details summary {
   border-radius: 50px;
 }
 
+.conteudo1 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  background-color: rgba(253, 253, 253, 0.516);
+  width: 100%;
+}
+
+.conteudo {
+  background-color: #ffffff00;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.conteudo h4 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  z-index: 50;
+}
+.conteudo h {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  z-index: 50;
+}
+.conteudo h5 {
+  color: #f9f9f9;
+  font-size: 15px;
+  font-weight: 500;
+  z-index: 50;
+}
+.conteudo .perfil {
+  border-radius: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .whats {
   position: fixed;
   bottom: 10px;
@@ -296,6 +345,11 @@ section details summary {
   z-index: 9999;
   display: flex;
 }
+
+
+
+
+
 
 /*Final do whatsapp*/
 /* Roda-pé */
