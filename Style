@@ -152,8 +152,8 @@ header {
     height: 100vh !important;
     margin: 0;
     background-color: #111010;
-    width: 100%;
-    max-width: 70px;
+    width: 70%;
+    max-width: 100px;
     padding: 100px 20px;
     flex-direction: column;
     transition: 0.5s ease;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6, P {
 }
 
 section.module.parallax {
-  background-color: #000000;
+  background-color: #D3D3D3;
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
@@ -225,10 +225,11 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
   /*
   background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
   background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, #000 100% );
   */
 }
 
@@ -245,17 +246,53 @@ section.module.parallax-3:after {
   */
 }
 
-
+section.module.parallax-1 {
+  background-image: url(/img/Style10.jpg);
+  text-align: center;
+}
+section.module.parallax-1 h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  z-index: 50;
+}
+section.module.parallax-1 h4 {
+  color: #00f7ff;
+  font-size: 20px;
+  font-weight: 300;
+  z-index: 50;
+}
 
 section.module.parallax-2 {
-  background-color: #ffffff;
+  background-image: url(/img/Style9.jpg);
   text-align: center;
 }
 section.module.parallax-2 h3 {
-  color: #000000;
+  color: #00f7ff;
   font-size: 30px;
   font-weight: 400;
   z-index: 50;
+}
+section.module.parallax-2 h4 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 200;
+  z-index: 50;
+}
+
+.text-1 {
+  visibility: hidden;
+}
+
+.Perguntas {
+  text-align: center;
+}
+
+section details summary {
+  background-color: #f7f3f3;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 50px;
 }
 
 .conteudo1 {
@@ -263,7 +300,7 @@ section.module.parallax-2 h3 {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.933);
+  background-color: rgba(253, 253, 253, 0.516);
   width: 100%;
 }
 .conteudo1 div.box1 {
@@ -290,7 +327,7 @@ section.module.parallax-2 h3 {
 }
 .conteudo1 div.box3 {
   border-radius: 10px;
-  background-color: rgba(148, 147, 147, 0);
+  background-color: rgba(255, 0, 0, 0);
   width: 30%;
   display: inline-block;
   text-align: center;
@@ -299,14 +336,14 @@ section.module.parallax-2 h3 {
 .conteudo1 div.box3 .perfil {
   border-radius: 10px;
 }
-
 .conteudo {
-  background-color: #ffffff;
+  background-color: #ffffff00;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
+
 .conteudo h4 {
   color: #ffffff;
   font-size: 25px;
@@ -320,7 +357,7 @@ section.module.parallax-2 h3 {
   z-index: 50;
 }
 .conteudo h5 {
-  color: #000000;
+  color: #f9f9f9;
   font-size: 15px;
   font-weight: 500;
   z-index: 50;
@@ -329,24 +366,27 @@ section.module.parallax-2 h3 {
   border-radius: 70px;
 }
 
-.text-1 {
-  visibility: hidden;
-}
 
 .whats {
   position: fixed;
   bottom: 10px;
   right: 10px;
   z-index: 9999;
-  display: grid;
+  display: flex;
 }
+
+
+
+
+
+
 
 /*Final do whatsapp*/
 /* Roda-pé */
 #rodape {
   width: 100%;
   height: auto;
-  background-color: rgba(248, 3, 3, 0);
+  background-color: rgba(44, 43, 43, 0);
   background-size: 100%;
   padding: auto;
   text-align: center;
@@ -358,4 +398,5 @@ section.module.parallax-2 h3 {
   font-weight: 500;
 }
 
-/* Final Roda-pé *//*# sourceMappingURL=style.css.map */
+/* Final Roda-pé *//*# sourceMappingURL=contact.css.map */
+/* Final Roda-pé *//*# sourceMappingURL=contact.css.map */
